@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Scientific Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="calculator" role="application" aria-label="Scientific calculator">
+    <div class="display" id="display" aria-live="polite">0</div>
+
+    <div class="buttons" id="buttons" role="group" aria-label="Calculator buttons">
+      <button data-val="(">(</button>
+      <button data-val=")">)</button>
+      <button data-fn="clear">C</button>
+      <button data-fn="back">⌫</button>
+
+      <button data-val="sin">sin</button>
+      <button data-val="cos">cos</button>
+      <button data-val="tan">tan</button>
+      <button data-val="^">^</button>
+
+      <button data-val="7">7</button>
+      <button data-val="8">8</button>
+      <button data-val="9">9</button>
+      <button data-val="/">÷</button>
+
+      <button data-val="4">4</button>
+      <button data-val="5">5</button>
+      <button data-val="6">6</button>
+      <button data-val="*">×</button>
+
+      <button data-val="1">1</button>
+      <button data-val="2">2</button>
+      <button data-val="3">3</button>
+      <button data-val="-">−</button>
+
+      <button data-val="0">0</button>
+      <button data-val=".">.</button>
+      <button data-val="pi">π</button>
+      <button data-val="+">+</button>
+
+      <button data-val="sqrt">√</button>
+      <button data-val="ln">ln</button>
+      <button data-val="log">log</button>
+      <button data-fn="equals" class="equals">=</button>
+    </div>
+  </main>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
